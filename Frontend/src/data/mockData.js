@@ -58,9 +58,9 @@ export const mockBookings = [
 ];
 
 export const mockUsers = [
-  { name: 'Ava Rao', role: 'customer', email: 'ava@example.com', password: '123456' },
-  { name: 'Samir Mehta', role: 'owner', email: 'samir@example.com', password: '123456' },
-  { name: 'Nina Shah', role: 'admin', email: 'nina@example.com', password: '123456' },
+  { id: 1, name: 'Ava Rao', role: 'customer', email: 'ava@example.com', password: '123456' },
+  { id: 2, name: 'Samir Mehta', role: 'owner', email: 'samir@example.com', password: '123456' },
+  { id: 3, name: 'Nina Shah', role: 'admin', email: 'nina@example.com', password: '123456' },
 ];
 
 export const mockReports = [
