@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -36,8 +36,8 @@ function HomePage() {
         <h1>Cineverse</h1>
         <p>Explore a fully navigable frontend prototype for movie discovery, booking, and dashboard flows.</p>
         <div className="actions">
-          <a className="btn" href="/movies">Browse Movies</a>
-          <a className="btn btn-secondary" href="/login">Login</a>
+          <Link className="btn" to="/movies">Browse Movies</Link>
+          <Link className="btn btn-secondary" to="/login">Login</Link>
         </div>
       </div>
     </div>
